@@ -81,14 +81,14 @@ body:after {
     box-shadow: none !important; }
   .btn.btn-primary {
     background: #CB0000;
-    border-color: #007bff;
+    border-color: #18501a;
     color: #fff; }
     .btn.btn-primary:hover {
       background: #18501a;
       border-color: #000;
       color: #fff; }
     .btn.btn-primary.btn-black--hover:hover {
-      background: #666666;
+      background: #18501a;
       color: #fff; }
 
 .line-height-1 {
