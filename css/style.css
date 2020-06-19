@@ -15,11 +15,44 @@ html {
   }
 
   .banner_part_astronomia {
-    height: 400px;
+    height: 800px;
     display: flex;
     align-items: center;
     position: relative;
     background-image: url(../images/astronomia-comite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .banner_part_bromelia {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url(../images/bromelias-comite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .banner_part_espeleologia {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url(../images/espeleologia-comite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .banner_part_orquidea {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url(../images/orquidea-comite.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -1625,8 +1658,9 @@ justify-content: center;
 
             .section-title-principal-comite {
               color: #ffffff;
-              font-size: 100px;
-              font-weight: 900; }
+    font-size: 200px;
+    font-weight: 700;
+    font-family: initial; }
               @media (max-width: 991.98px) {
                 .section-title {
                   font-size: 30px; } }
